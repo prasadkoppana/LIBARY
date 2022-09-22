@@ -14,3 +14,4 @@ def runselenium(jobname)
 {
   sh "java -jar /home/ubuntu/.jenkins/workspace/${jobname}/testing.jar"
 }
+
